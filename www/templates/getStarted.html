@@ -1,0 +1,28 @@
+<ion-view title="Get Started" hide-nav-bar="true" id="settings1" class="bg-color">
+  <ion-content padding="true" class="manual-ios-statusbar-padding">
+    <div>
+      <img src="img/logo_small.png" class="logo-image" style="margin-top: 30px;">
+    </div>
+    <div class="spacer"></div>
+    <div id="getStarted-markdown4" style="text-align:center;" class="show-list-numbers-and-dots">
+      <p class="get_started">Getting Started</p>
+    </div>
+    <div class="spacer"></div>
+<!-- auto-play="true" does-continue="true" -->
+    <ion-slide-box on-slide-changed="slideeChange(index)" class="slider" auto-play="true" does-continue="true">
+      <ion-slide>
+        <img src="./img/research.png">
+      </ion-slide>
+      <ion-slide>
+        <img src="./img/post.png">
+      </ion-slide>
+      <ion-slide>
+        <img src="./img/banner.png">
+      </ion-slide>
+    </ion-slide-box>
+
+
+
+    <a ng-click="handleGetStarted()" id="getStarted-button5" class="button button-balanced  button-block">Finish Registration</a>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,34 @@
+<ion-view title="Registration" hide-nav-bar="true" id="page6" class="bg-color">
+  <ion-content padding="true" class="manual-ios-statusbar-padding">
+    <div class="spacer"></div>
+    <div>
+      <img src="img/logo.png" class="logo-image">
+    </div>
+    <div class="spacer"></div>
+    <div id="registration-markdown3" style="text-align:center;" class="show-list-numbers-and-dots">
+      <p style="color:#FFFFFF;font-size:20px;">Account Registration</p>
+    </div>
+    <div class="spacer"></div>
+    <!-- <ion-list id="registration-list5">
+      <ion-item class="item-icon-left register-list" id="registration-list-item3">
+				<ion-checkbox ng-model="registrationModel.pushEnabled">Push Notifications</ion-checkbox>
+        </ion-item>
+    </ion-list>
+    <div class="spacer"></div>
+    <ion-list id="registration-list4">
+      <ion-item class="item-icon-left register-list" id="registration-list-item4">
+				<ion-checkbox ng-model="registrationModel.calendarEnabled" ng-change="calendarEnabeldChange()">Social Media Calendar</ion-checkbox>
+       </ion-item>
+    </ion-list> -->
+
+    <ion-list class="list">
+      <ion-toggle  toggle-class="toggle-balanced" id="tabSettings-toggle1" ng-model="settingsModel.pushEnabled.checked" ng-change="pushEnabledChange()">
+          Push Notifications
+      </ion-toggle>
+      <div class="spacer"></div>
+       <ion-toggle toggle-class="toggle-balanced" id="tabSettings-toggle2" ng-model="settingsModel.calendarEnabled.checked" ng-change="calendarEnabledChange()">Calendar Sync
+       </ion-toggle>
+    </ion-list>
+    <a ui-sref="tab.calendar" id="registration-button4" class="button button-balanced button-block" ng-click="completeRegistration()">Get Started</a>
+  </ion-content>
+</ion-view>

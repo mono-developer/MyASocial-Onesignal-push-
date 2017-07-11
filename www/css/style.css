@@ -1,0 +1,81 @@
+/* Empty. Add your own CSS if you like */
+.chat-icon{ left: 12px;}
+.bg-color{ background-color: #053C5E;}
+.iframe
+{
+	width: 100vw;
+	height: calc( 100vh - 49px);
+	-webkit-height: calc( 100vh - 49px);
+}
+.bar.bar-stable
+{
+	background-color: #053C5E;
+	color: #fff; 
+	height: 49px;
+}
+.bar.bar-stable .title{ color: #fff;}
+.bar-stable .button.button-clear{ color: #fff;}
+.logo-image
+{
+	display: block; 
+	width: 100%; 
+	height: auto; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+.get_started
+{
+	color: #FFFFFF;
+	font-size: 20px;
+}
+.spacer
+{
+	width: 300px;
+	height: 26px;
+}
+.register-list
+{
+	padding: 15px 22px;
+}
+.create-item
+{
+	padding: 10px auto;
+	margin-bottom: 25px;
+	padding-right: 30px;
+}
+.calendar-data
+{
+	width: 100%;
+    background-color: #fff;
+    display: block;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.data-first
+{
+	width: 100%;
+    height: 100%;
+    padding: 9px;
+}
+.icon-right
+{
+	width: 20px;
+	float: right;
+	padding-top: 30px;
+    text-align: center;
+}
+.scroll-container
+{
+	overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+     height: 100%;
+     width: 100%;
+}
+.slider img
+{
+	width: 100%;
+}
+
+
+
+

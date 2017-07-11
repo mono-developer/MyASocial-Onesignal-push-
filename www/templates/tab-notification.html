@@ -1,0 +1,21 @@
+<ion-view view-title="Account" hide-nav-bar="true" class="bg-color">
+  <ion-content>
+  <div class="spacer"></div>
+    <div>
+      <img src="img/logo.png" class="logo-image">
+    </div>
+    <div class="spacer"></div>
+    <div id="registration-markdown3" style="text-align:center;" class="show-list-numbers-and-dots">
+      <p style="color:#FFFFFF;font-size:20px;">Account Registration</p>
+    </div>
+    <div class="spacer"></div>
+    <ion-list class="list">
+      <ion-toggle  toggle-class="toggle-balanced" id="tabSettings-toggle1" ng-model="settingsModel.pushEnabled.checked" ng-change="pushEnabledChange()">
+          Push Notifications
+      </ion-toggle>
+      <div class="spacer"></div>
+       <ion-toggle toggle-class="toggle-balanced" id="tabSettings-toggle2" ng-model="settingsModel.calendarEnabled.checked" ng-change="calendarEnabledChange()">Calendar Sync
+       </ion-toggle>
+    </ion-list>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,19 @@
+<ion-view view-title="Create" hide-nav-bar="true" class="bg-color">
+  <ion-content class="padding">
+  <div id="top-content">
+      <div class="spacer" style="width: 300px; height: 34px;"></div>
+      <div>
+        <img src="img/logo.png" class="logo-image">
+      </div>
+      <div class="spacer" style="width: 300px; height: 33px;"></div>
+      <div class="spacer" style="width: 300px; height: 53px;"></div>
+      <ion-list>
+        <ion-item class="item-remove-animate item-avatar item-icon-right create-item" ng-repeat="data in creates" type="item-text-wrap" ng-click="localBrowser(data.url)">
+          <i class="{{data.icon}} chat-icon"></i>
+          <h2>{{data.title}}</h2>
+          <p>{{data.url}}</p>
+        </ion-item>
+      </ion-list>
+    </div>
+  </ion-content>
+</ion-view>

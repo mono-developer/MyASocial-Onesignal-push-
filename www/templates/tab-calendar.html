@@ -1,0 +1,21 @@
+<ion-view view-title="Calendar" class="bg-color">
+  <ion-content class="padding">
+    <div class="spacer" style="width: 300px; height: 34px;"></div>
+    <div>
+      <img src="img/logo.png" class="logo-image" 
+    </div>
+    <div class="spacer" style="width: 300px; height: 33px;"></div>
+    <div id="tabCalendar-markdown5" style="text-align:center;" class="show-list-numbers-and-dots">
+      <p style="color:#FFFFFF;font-size:18px;">Posting Schedule</p>
+    </div>
+    <ion-list class="calan-list">
+        <ion-item class="item-icon-right create-item" ng-repeat="data in calendars" type="item-text-wrap" ng-click="openBrowser(data.url)">
+          <!-- <i class="{{data.icon}} chat-icon"></i> -->
+          <div class="data-first" >
+            <h2>{{data.date}}</h2>  
+            <p>{{data.title}}</p>
+          </div>
+        </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

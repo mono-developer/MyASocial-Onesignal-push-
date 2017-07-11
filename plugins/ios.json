@@ -1,0 +1,47 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.asocialstrategy.app"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.asocialstrategy.app"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.asocialstrategy.app"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.asocialstrategy.app"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.asocialstrategy.app"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.asocialstrategy.app"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.asocialstrategy.app"
+        },
+        "onesignal-cordova-plugin": {
+            "PACKAGE_NAME": "com.asocialstrategy.app"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.asocialstrategy.app"
+        },
+        "cordova-plugin-calendar": {
+            "CALENDAR_USAGE_DESCRIPTION": " ",
+            "PACKAGE_NAME": "com.asocialstrategy.app"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.asocialstrategy.app"
+        }
+    }
+}
